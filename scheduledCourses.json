@@ -1,0 +1,25 @@
+[
+    {
+        "id": 0,
+        "courseId": 1,
+        "dates": ["2018-01-13"],
+        "coordinatorId": 0,
+        "venueId": 0
+    },
+
+    {
+        "id": 1,
+        "courseId": 3,
+        "dates": ["2018-01-27"],
+        "coordinatorId": 3,
+        "venueId": 0
+    },
+
+    {
+        "id": 2,
+        "courseId": 0,
+        "dates": ["2018-02-03, 2018-02-10, 2018-02-17, 2018-02-24"],
+        "coordinatorId": 4,
+        "venueId": 3
+    }
+]
