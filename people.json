@@ -1,0 +1,65 @@
+[
+    {
+        "id": 0,
+        "lastName": "Williams",
+        "firstName": "Nicci",
+        "company": "",
+        "role": ["Course Coordinator", "Teaching Assistant"],
+        "slackHandle": "nicciwill"
+    },
+
+    {
+        "id": 1,
+        "lastName": "Bura",
+        "firstName": "Michlle",
+        "company": "",
+        "role": ["Instructor", "President"],
+        "slackHandle": "mbura"
+    },
+
+    {
+        "id": 2,
+        "lastName": "Banks",
+        "firstName": "Angel",
+        "company": "",
+        "role": ["Instructor", "Social Media Manager"],
+        "slackHandle": "angel.banks"
+    },
+
+    {
+        "id": 3,
+        "lastName": "Williams-Pudalov",
+        "firstName": "Marcy",
+        "company": "",
+        "role": ["Course Coordinator"],
+        "slackHandle": "Marcy Williams-Pudalov"
+    },
+
+    {
+        "id": 4,
+        "lastName": "Tabler",
+        "firstName": "Megan",
+        "company": "",
+        "role": ["Course Coordinator"],
+        "slackHandle": "megtabler"
+    },
+
+    {
+        "id": 5,
+        "lastName": "Little",
+        "firstName": "Laura",
+        "company": "",
+        "role": ["Teaching Assistant"],
+        "slackHandle": "Laura"
+    },
+
+    {
+        "id": 6,
+        "lastName": "Privateer",
+        "firstName": "Bernadette",
+        "company": "",
+        "role": ["Teaching Assistant"],
+        "slackHandle": "bernadette.privateer"
+    }
+
+]
