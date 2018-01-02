@@ -1,0 +1,45 @@
+[
+        {
+            "id": 0,
+            "name": "Intro to JavaScript (JS)",
+            "price": 90,
+            "days": 4
+        },
+    
+        {
+            "id": 1,
+            "name": "Intro to User Experience (UX)",
+            "price": 65,
+            "days": 1
+        },
+    
+        {
+            "id": 2,
+            "name": "Intro to WordPress",
+            "price": 90,
+            "days": 4
+        },
+    
+        {
+            "id": 3,
+            "name": "Intro to App Building with Salesforce",
+            "price": 75,
+            "days": 1
+        },
+        
+        {
+            "id": 4,
+            "name": "Intro to SQL",
+            "price": 90,
+            "days": 4
+        },
+    
+        {
+            "id": 5,
+            "name": "Intro to HTML/CSS",
+            "price": 90,
+            "days": 4
+        }
+]
+
+

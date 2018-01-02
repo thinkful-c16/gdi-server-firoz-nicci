@@ -1,7 +1,7 @@
 {
-  "name": "thinkful-backend-template",
+  "name": "gdi-workflow-app",
   "version": "1.0.0",
-  "description": "Template for an Express backend",
+  "description": "Application for streamlining GDI Atlant internal workflow",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
@@ -10,9 +10,10 @@
     "heroku": "node index.js",
     "travis": "mocha test/setup.test.js */*.test.js"
   },
-  "author": "Joe Turner <jturner@thinkful.com>",
+  "author": "Nicci Williams and Firoz Kamdar",
   "license": "MIT",
   "dependencies": {
+    "body-parser": "^1.18.2",
     "cors": "^2.8.4",
     "express": "^4.15.4",
     "knex": "^0.13.0",
