@@ -1,0 +1,49 @@
+[
+    {
+        "id": 0,
+        "contactLastName": "",
+        "contactFirstName": "",
+        "contactPhone": "",
+        "company": "Digital Crafts",
+        "address2": "Atlanta Tech Village",
+        "address": "3423 Piedmont Rd NE, Atlanta, GA",
+        "website": "digitalcrafts.com",
+        "notes": ""
+    },
+
+    {
+        "id": 1,
+        "contactLastName": "",
+        "contactFirstName": "",
+        "contactPhone": "",
+        "company": "CareerBuilder",
+        "address2": "Norcross Office",
+        "address": "5550-A Peachtree Pky, Ste 200, Norcross, GA",
+        "website": "careerbuilder.com",
+        "notes": ""
+    },
+
+    {
+        "id": 2,
+        "contactLastName": "",
+        "contactFirstName": "",
+        "contactPhone": "",
+        "company": "CareerBuilder",
+        "address2": "Atlanta Office",
+        "address": "3445 Peachtree Rd NE, Atlanta, GA",
+        "website": "careerbuilder.com",
+        "notes": ""
+    },
+
+    {
+        "id": 3,
+        "contactLastName": "",
+        "contactFirstName": "",
+        "contactPhone": "",
+        "company": "eHire",
+        "address2": "Piedmont Center North",
+        "address": "3575 Piedmont Rd NE, Atlanta, GA",
+        "website": "ehire.com",
+        "notes": ""
+    }
+]
