@@ -60,6 +60,15 @@
         "company": "",
         "role": ["Teaching Assistant"],
         "slackHandle": "bernadette.privateer"
+    },
+
+    {
+        "id": 6,
+        "lastName": "Solomon",
+        "firstName": "Francis",
+        "company": "",
+        "role": ["Instructor"],
+        "slackHandle": "Francis Solomon"
     }
 
 ]

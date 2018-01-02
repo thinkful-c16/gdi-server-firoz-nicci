@@ -8,7 +8,10 @@ const bodyParser = require('body-parser');
 const {PORT, CLIENT_ORIGIN} = require('./config');
 const {dbConnect} = require('./db-mongoose');
 // const {dbConnect} = require('./db-knex');
-const data = require('./courses');
+const courseData =    require('./data/courses');
+const peopleData =    require('./data/people');
+const venueData =     require('./data/venues');
+const schCourseData = require('./data/scheduledCourses');
 
 const app = express();
 
@@ -24,8 +27,21 @@ app.use(
   })
 );
 
+
 app.get('/api/courses', (req, res) => {
-  res.json(data);
+  res.json(courseData);
+});
+
+app.get('/api/people', (req, res) => {  
+  res.json(peopleData);
+});
+
+app.get('/api/venues', (req, res) => {
+  res.json(venueData);
+});
+
+app.get('/api/scheduledCourses', (req, res) => {
+  res.json(schCourseData);
 });
 
 function runServer(port = PORT) {
