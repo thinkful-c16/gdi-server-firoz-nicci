@@ -100,6 +100,28 @@ app.post('/api/scheduledCourses', JSONParser, (req, res) => {
     });
 });
 
+app.put('/api/scheduledCourses/:id', JSONParser, (req, res) => {
+  ScheduledCourseModel
+    .findByIdAndUpdate(req.params.id, 
+      {$set: {
+        'course': req.body.course,
+        'coordinator': req.body.coordinator,
+        'instructor': req.body.instructor,
+        'tas': req.body.tas,
+        'venue': req.body.venues,
+        'dates': req.body.dates
+      }
+      }, 
+      {new:true}
+    )
+    .then(updatedCourse => {
+      res.json(updatedCourse);
+    })
+    .catch(err => {
+      console.log(err);
+    });
+});
+
 function runServer(port = PORT) {
   const server = app
     .listen(port, () => {
