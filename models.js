@@ -84,7 +84,7 @@ const ScheduledCourseSchema = new mongoose.Schema({
     type: Schema.Types.ObjectId, ref: 'Venue'
   },
   dates: [ {
-    date: Date
+    type: Date
   }]
 
 });

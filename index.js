@@ -85,10 +85,15 @@ app.get('/api/scheduledCourses/:id', (req, res) => {
 app.post('/api/scheduledCourses', JSONParser, (req, res) => {
   ScheduledCourseModel
     .create({
-      course: req.body.course
+      course: req.body.course,
+      coordinator: req.body.coordinator,
+      instructor: req.body.instructor,
+      tas: req.body.tas,
+      venue: req.body.venue,
+      dates: req.body.dates
     })
     .then(newCourse => {
-      console.log(newCourse);
+      res.json(newCourse);
     })
     .catch(err => {
       console.log(err);
