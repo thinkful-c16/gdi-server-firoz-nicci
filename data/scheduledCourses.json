@@ -1,31 +1,31 @@
 [
     {
         "id": 0,
-        "courseId": 1,
+        "course": "5a4d0107c1e8fa67e1151063",
         "dates": ["2018-01-13"],
-        "coordinatorId": 0,
-        "instructorId": 2,
-        "taId": [5,6],
-        "venueId": 0
+        "coordinator": "5a4d0692c1e8fa67e115116c",
+        "instructor": "5a4d0692c1e8fa67e1151170",
+        "tas": ["5a4d0692c1e8fa67e1151176","5a4d0692c1e8fa67e1151178"],
+        "venue": "5a4d0643c1e8fa67e1151156"
     },
 
     {
         "id": 1,
-        "courseId": 3,
+        "course": "5a4d0139c1e8fa67e115107b",
         "dates": ["2018-01-27"],
-        "coordinatorId": 3,
-        "instructorId": 1,
-        "taId": [0,5],
-        "venueId": 0
+        "coordinator": "5a4d0692c1e8fa67e1151172",
+        "instructor": "5a4d0692c1e8fa67e115116e",
+        "tas": ["5a4d0692c1e8fa67e115116c","5a4d0692c1e8fa67e1151176"],
+        "venue": "5a4d0643c1e8fa67e1151156"
     },
 
     {
         "id": 2,
-        "courseId": 0,
+        "course": "5a4d0096c1e8fa67e1151049",
         "dates": ["2018-02-03, 2018-02-10, 2018-02-17, 2018-02-24"],
-        "coordinatorId": 4,
-        "instructorId": 7,
-        "taId": [0,6],
-        "venueId": 3
+        "coordinator": "5a4d0692c1e8fa67e1151174",
+        "instructor": "5a4d0692c1e8fa67e115117a",
+        "tas": ["5a4d0692c1e8fa67e115116c","5a4d0692c1e8fa67e1151178"],
+        "venue": "5a4d0643c1e8fa67e115115c"
     }
 ]

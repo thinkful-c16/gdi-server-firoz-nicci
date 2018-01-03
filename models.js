@@ -6,6 +6,7 @@ mongoose.Promise = global.Promise;
 const Schema = mongoose.Schema;
 
 const CourseSchema = new mongoose.Schema({
+  ident: Number,
   name: {
     type: String,
     required: true
@@ -25,6 +26,7 @@ const CourseSchema = new mongoose.Schema({
 });
 
 const PersonSchema = new mongoose.Schema({
+  id: Number,
   lastName: {
     type: String,
     required: true
@@ -48,6 +50,7 @@ const PersonSchema = new mongoose.Schema({
 });
 
 const VenueSchema = new mongoose.Schema({
+  id: Number,
   address: {
     type: String,
     required: true
@@ -65,24 +68,23 @@ const VenueSchema = new mongoose.Schema({
 });
 
 const ScheduledCourseSchema = new mongoose.Schema({
-  courseId: {
+  course: {
     type: Schema.Types.ObjectId, ref: 'Course'
   },
-  coordinatorId: {
+  coordinator: {
     type: Schema.Types.ObjectId, ref: 'Person'
   },
-  instructorId: {
+  instructor: {
     type: Schema.Types.ObjectId, ref: 'Person'
   },
-  taId: [{ 
+  tas: [{ 
     type: Schema.Types.ObjectId, ref: 'Person' 
   }],
-  venueId: {
+  venue: {
     type: Schema.Types.ObjectId, ref: 'Venue'
   },
   dates: [ {
-    date: Date,
-    required: true
+    date: Date
   }]
 
 });
@@ -90,6 +92,6 @@ const ScheduledCourseSchema = new mongoose.Schema({
 const CourseModel = mongoose.model('Course', CourseSchema);
 const PersonModel = mongoose.model('Person', PersonSchema);
 const VenueModel = mongoose.model('Venue', VenueSchema);
-const ScheduledCourseModel = mongoose.model('ScheduledCourse', ScheduledCourseSchema);
+const ScheduledCourseModel = mongoose.model('ScheduledCourse', ScheduledCourseSchema, 'scheduledCourses');
 
 module.exports = {CourseModel, PersonModel, VenueModel, ScheduledCourseModel};

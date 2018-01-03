@@ -1,20 +1,6 @@
 [
     {
         "courseId": 1,
-        "desc": "<p>At its core, User Experience (UX) is defined as how someone feels about using a product, system, or service. Regardless of what we’re designing--a website, an Android app, or a toaster--we all strive to make our designs useful, easy to use, and enjoyable to use. But how exactly do we make something useful, easy to use, and enjoyable? How do we know if the target audience is having a good or bad experience? This class will arm you with the essential tips to find those answers.</p>
-        <p>This class is for anyone who makes (or wants to learn how to make) websites, mobile apps, or other software. If you’re a developer, a designer, a project manager, a content creator, or something else, you can integrate UX research and design into your practice.</p>
-        <p>By the end of this class, you’ll also learn tips and techniques to address the following:</p>
-        <ul>
-        <li>Fundamental concepts of user experience design</li>
-        <li>How to find out who your users are</li>
-        <li>Creating user personas</li>
-        <li>Identifying usability problems and prioritizing solutions</li>
-        <li>How to design and run usability tests</li>
-        <li>Getting useful feedback from your users</li>
-        <li>Information Architecture and interaction design</li>
-        <li>Where UX fits with project management methodologies</li>
-        <li>And more!</li>
-        </ul>
-        <p>This is a hands on course which will give you actionable tools to get started with user experience in your work day!</p>"
+        "desc": "<p>At its core, User Experience (UX) is defined as how someone feels about using a product, system, or service. Regardless of what we’re designing--a website, an Android app, or a toaster--we all strive to make our designs useful, easy to use, and enjoyable to use. But how exactly do we make something useful, easy to use, and enjoyable? How do we know if the target audience is having a good or bad experience? This class will arm you with the essential tips to find those answers.</p><p>This class is for anyone who makes (or wants to learn how to make) websites, mobile apps, or other software. If you’re a developer, a designer, a project manager, a content creator, or something else, you can integrate UX research and design into your practice.</p><p>By the end of this class, you’ll also learn tips and techniques to address the following:</p><ul><li>Fundamental concepts of user experience design</li><li>How to find out who your users are</li><li>Creating user personas</li><li>Identifying usability problems and prioritizing solutions</li><li>How to design and run usability tests</li><li>Getting useful feedback from your users</li><li>Information Architecture and interaction design</li><li>Where UX fits with project management methodologies</li><li>And more!</li></ul><p>This is a hands on course which will give you actionable tools to get started with user experience in your work day!</p>"
     }
 ]
