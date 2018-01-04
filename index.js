@@ -38,12 +38,17 @@ app.get('/api/courses', (req, res) => {
     });
 });
 
-app.get('/api/people', (req, res) => { 
+app.get('/api/scheduledCourses/:id', (req, res) => {
+  ScheduledCourseModel.findById(req.params.id)
+    .then(course => res.status(200).json(course))
+})
+
+app.get('/api/people', (req, res) => {
   PersonModel
     .find()
     .then(people => {
       res.json(people);
-    });  
+    });
 });
 
 app.get('/api/venues', (req, res) => {
@@ -102,7 +107,7 @@ app.post('/api/scheduledCourses', JSONParser, (req, res) => {
 
 app.put('/api/scheduledCourses/:id', JSONParser, (req, res) => {
   ScheduledCourseModel
-    .findByIdAndUpdate(req.params.id, 
+    .findByIdAndUpdate(req.params.id,
       {$set: {
         'course': req.body.course,
         'coordinator': req.body.coordinator,
@@ -111,7 +116,7 @@ app.put('/api/scheduledCourses/:id', JSONParser, (req, res) => {
         'venue': req.body.venues,
         'dates': req.body.dates
       }
-      }, 
+      },
       {new:true}
     )
     .then(updatedCourse => {
