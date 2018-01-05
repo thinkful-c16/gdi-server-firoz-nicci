@@ -83,6 +83,7 @@ app.get('/api/scheduledCourses/:id', (req, res) => {
 });
 
 app.post('/api/scheduledCourses', JSONParser, (req, res) => {
+  console.log(req.body);
   ScheduledCourseModel
     .create({
       course: req.body.course,
@@ -120,6 +121,11 @@ app.put('/api/scheduledCourses/:id', JSONParser, (req, res) => {
     .catch(err => {
       console.log(err);
     });
+});
+
+app.post('/api/meetup', JSONParser, (req, res) => {
+  console.log(req.body);
+  const meetingDetails = req.body;
 });
 
 function runServer(port = PORT) {

@@ -1,8 +1,13 @@
 # Thinkful Backend Template
 
-A template for developing and deploying Node.js apps.
+As a course coordinator for an organization that offers intro tech courses, I wanted to create a centralized way to manage the various resources (spreadsheets, Trello lists, HQ documents) needed to schedule and coordinate our training class offerings. I wanted a way for everyone on the Leadership Committee to see, at a glance, the scheduled courses and the progress of each toward being fully coordinated (designated coordinator, instructor, TAs, venue, Meetup.com event link).
 
-## Getting started
+## Tech Stack
+
+* React
+* Redux
+* Mongo/Mongoose
+* Express
 
 ### Setting up a project
 
