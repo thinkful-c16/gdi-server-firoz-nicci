@@ -5,12 +5,11 @@ As a course organizer for a local organization that offers intro tech courses, I
 ![screen shot 2018-01-20 at 2 03 11 pm](https://user-images.githubusercontent.com/30200241/35187027-7ab9545e-fdeb-11e7-9442-c8f30d49e8a7.png)
 
 ## Tech Stack
-
+* Node.js
+* Express.js
 * React
 * Redux
 * Mongo/Mongoose
-* Express
 
-### Live Demo
-
+## Live Demo
 http://girldevelopit.netlify.com
